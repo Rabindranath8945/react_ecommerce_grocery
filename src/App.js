@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Products from './components/pages/Products';
+import Contact from './components/pages/Contact';
+import SingleProduct from './components/pages/SingleProduct';
+import Cart from './components/pages/Cart';
+import ErrorPage from './components/pages/ErrorPage';
+import { GlobalStyle } from './components/GlobalStyle';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <BrowserRouter>
+      <GlobalStyle/>
+        <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/products' element={<Products/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='*' element={<ErrorPage/>}/>
+        </Routes>
+      </BrowserRouter>
+    
+    </>
   );
 }
 
