@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
-import Feature from "../components/Feature";
+import Offer from "../components/Offer";
 
 const Home = () => {
   return (
     <>
       <section className="home">
         <Banner />
-        <Feature />
+        <Offer />
       </section>
     </>
   );
