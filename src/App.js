@@ -6,6 +6,9 @@ import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import SingleProduct from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
+import Upcoming from "./pages/Upcoming";
+import Blog from "./pages/Blog";
+import Shop from "./pages/Shop";
 import ErrorPage from "./pages/ErrorPage";
 import "./styles/Global.css";
 import Header from "./components/Header";
@@ -23,6 +26,9 @@ function App() {
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/upcoming" element={<Upcoming />} />
         </Routes>
       </BrowserRouter>
     </>

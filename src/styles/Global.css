@@ -10,7 +10,9 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* Container */
+/* Creating CSS Broiler Plate for re-use */
+
+/* Container*/
 
 @media screen and (min-width: 200px) and (max-width: 576px) {
   .container {
@@ -64,13 +66,32 @@
   flex: 1;
 }
 
+/* Button Section */
+.btn-dark {
+  width: 12rem;
+  height: 3.5rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 /* Header Section */
 
 /* Navbar Section */
 
 .navbar_secnd {
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #1f1f1f;
 }
 
 .navbar_item_logo {
@@ -98,7 +119,7 @@ li .navbar_links {
 
 li .navbar_links:hover {
   color: #e42f24;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px dashed #111;
 }
 
 li .navbar_icon {
@@ -111,17 +132,52 @@ li .navbar_links_icon {
 
 /* Topbar Section  */
 .topbar {
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
   background: #000;
   color: #fff;
 }
+
+.topbar_item {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-right: 1px solid #fff;
+}
+
 .topbar_icon {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .topbar_links {
   color: #fff;
+  font-size: 0.8rem;
   text-decoration: none;
   padding-left: 0.2rem;
+}
+
+/* Home Section */
+
+.section_inner {
+  background-image: url(../../public/images/bake-farms-banner.png);
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: start;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section_inner_item h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+button.banner_btn {
+  margin-top: 5rem;
+}
+
+/* Feature Start */
+
+.feature {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
