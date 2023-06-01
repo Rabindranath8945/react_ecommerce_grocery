@@ -68,11 +68,10 @@
 
 /* Button Section */
 .btn-dark {
-  width: 12rem;
-  height: 3.5rem;
   background-color: #fff;
   color: #000;
-  font-size: 1.2rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   border: 0;
   border-radius: 0.2rem;
@@ -82,6 +81,7 @@
 .btn-dark:hover {
   background-color: #000;
   color: #fff;
+  box-shadow: none;
 }
 
 /* Header Section */
@@ -91,7 +91,7 @@
 .navbar_secnd {
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
-  border-bottom: 2px solid #1f1f1f;
+  border-bottom: 1px solid #efefef;
 }
 
 .navbar_item_logo {
@@ -134,6 +134,7 @@ li .navbar_links_icon {
 .topbar {
   background: #000;
   color: #fff;
+  display: none;
 }
 
 .topbar_item {
@@ -156,33 +157,37 @@ li .navbar_links_icon {
 
 /* Home Section */
 
+/* Banner Section */
+
+.banner {
+  margin-top: 1.5rem;
+}
+
 .section_inner {
-  background-image: url(../../public/images/bake-farms-banner.png);
+  background-image: linear-gradient(45deg, #e42f24, #410000);
   display: flex;
-  height: 500px;
+  border-radius: 15px;
+  height: 250px;
   align-items: center;
-  justify-content: flex-start;
-  background-size: cover;
-  background-position: center center;
+  justify-content: center;
 }
 
 .section_inner_item h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 button.banner_btn {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 /* Offer Start */
 
 .offer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 1.5rem;
 }
 
-.offer_inner_content {
+/* .offer_inner_content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,16 +208,18 @@ h2.offer_content_heading::before {
 h2.offer_content_heading::after {
   content: "--";
   margin-left: 1rem;
-}
+} */
 
 .offer_card {
   margin: 8px;
   text-align: center;
   padding-top: 0;
-  padding-bottom: 1.5rem;
-  border: 1px solid #efefef;
-  /* box-shadow: 2px 2px 7px 0px #efefef; */
   cursor: pointer;
+}
+
+.offer_card_inner_content {
+  background-color: #eb3d3338;
+  border-radius: 10px;
 }
 
 .card_link {
@@ -220,10 +227,25 @@ h2.offer_content_heading::after {
   text-decoration: none;
 }
 
-.offer_card:hover {
-  border: 1px solid;
-}
-
 .offer_card_title {
   padding-top: 1rem;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+p.offer_card_heading {
+  font-size: 0.9rem;
+}
+
+/* Features Section */
+
+.features_items {
+  margin-top: 2rem;
+}
+
+img.features_image {
+  width: 300px;
+  display: flex;
+  margin: auto;
 }
