@@ -17,12 +17,7 @@ const Offer = () => {
                     <NavLink className="card_link" to={to}>
                       <div className="offer_card_inner_content">
                         <div className="offer_card_image">
-                          <img
-                            src={image}
-                            alt={imageAlt}
-                            width="100px"
-                            height="100px"
-                          />
+                          <img src={image} alt={imageAlt} width="100px" />
                         </div>
                       </div>
                       <div className="offer_card_title">

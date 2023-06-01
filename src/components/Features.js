@@ -19,6 +19,7 @@ const Features = () => {
                           className="features_image"
                           src={image}
                           alt={imageAlt}
+                          width="300px"
                         />
                       </NavLink>
                     </div>
