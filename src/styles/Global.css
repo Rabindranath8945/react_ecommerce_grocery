@@ -6,6 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -66,6 +76,17 @@
   flex: 1;
 }
 
+.head-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* .head-flex-col {
+
+} */
+
 /* Button Section */
 
 /* Dark Button */
@@ -90,12 +111,24 @@
 /* Add Button */
 .add-btn {
   background-color: #ffe8df;
-  border: 1px solid #795548;
+  border: 1px solid #ad6041;
   padding: 0.5rem 1.2rem;
   border-radius: 5px;
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 600;
+  color: #ad6041;
+}
+
+.cart-btn {
+  background-color: tomato;
+  border: 1px solid tomato;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
 }
 
 /* Header Section */
@@ -110,7 +143,71 @@
 
 .navbar_item_logo {
   text-align: start;
+  width: 100px;
+  margin: auto;
 }
+
+.location_item {
+  width: 190px;
+  margin: auto;
+}
+
+.account_item {
+  width: 120px;
+  margin-right: 20px;
+}
+.return_item {
+  width: 90px;
+  margin-right: 10px;
+}
+.cart_item {
+  width: 105px;
+  text-align: center;
+}
+
+.head-loc-icon {
+  font-size: 19px;
+  font-weight: 800;
+  padding-right: 5px;
+}
+
+.head_searchbar {
+  margin-right: 30px;
+  width: 600px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+  color: #000;
+  font-size: 17px;
+}
+
+.head_cart_icon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+p.cart_text {
+  font-size: 16px;
+}
+
+.navbar_loc_link {
+  color: #000;
+
+  text-decoration: none;
+}
+
+p.upper_text {
+  font-size: 12px;
+}
+
+p.lower_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .navbar {
   text-align: end;
 }
@@ -278,49 +375,75 @@ img.features_image {
 }
 .right_link_inner {
   font-size: 1.2rem;
-  color: #e42f24;
+  color: #ad6041;
   font-weight: 500;
   text-decoration: none;
 }
 
 .list_product_card {
   margin-top: 1rem;
-  margin-right: 1rem;
-  padding: 10px;
-  border: 2px solid #efefef;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px #efefef;
-  width: 240px;
-  height: 340px;
+  padding: 12px;
+  background: rgb(255, 255, 255);
+  border: 0.5px solid rgb(232, 232, 232);
+  box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.list_product_card:hover {
+  border: 0.5px solid rgb(189, 189, 189);
 }
 
 .card_image {
   text-align: center;
-  padding: 2rem 0;
 }
-.card_categories {
+.card_sub_title {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+}
+.card_stock {
+  display: flex;
   align-items: center;
   width: fit-content;
-  background-color: #efefef;
+  background-color: #ddfbe1;
   padding: 4px;
   border-radius: 6px;
 }
+
+.card_discount {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  color: #6e6e6e;
+  background-color: #f7f7f7;
+  padding: 4px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
 .product_cat_span {
   font-size: 0.6rem;
   padding-left: 2px;
   text-decoration: none;
-  color: #000;
+  font-weight: 500;
+  color: #03770c;
+}
+.product_dis_span {
+  font-size: 0.6rem;
+  padding-left: 2px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #6e6e6e;
 }
 .card_product_name {
   padding: 0.8rem 0;
+  height: 50px;
 }
 .card_product_name p {
   font-size: 0.9rem;
 }
 .card_product_weight {
-  padding-bottom: 2rem;
+  height: 40px;
 }
 .card_product_weight p {
   color: #a5a5a5;
@@ -331,4 +454,23 @@ img.features_image {
 .card_price p {
   font-size: 0.9rem;
   font-weight: 600;
+}
+p.card_prev_price {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.card_add {
+  text-align: end;
+}
+
+/* Footer Section Start Here */
+.footer {
+  padding: 30px 0;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

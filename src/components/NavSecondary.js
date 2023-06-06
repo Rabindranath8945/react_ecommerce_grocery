@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Nav from "./Nav";
+import { FiMapPin, FiShoppingCart } from "react-icons/fi";
 
 const NavSecondary = () => {
   return (
@@ -9,7 +10,7 @@ const NavSecondary = () => {
         <div className="container">
           <div className="navbar_inner">
             <div className="flex-row">
-              <div className="flex-col">
+              <div className="head-flex-col">
                 <div className="navbar_item_logo">
                   <NavLink to="/">
                     <img
@@ -20,9 +21,61 @@ const NavSecondary = () => {
                   </NavLink>
                 </div>
               </div>
-              <div className="flex-col">
+              <div className="head-flex-col">
+                <div className="navbar_item location_item">
+                  <NavLink to="/" className="navbar_loc_link">
+                    <div className="head-flex-row">
+                      <div className="head-flex-col">
+                        <FiMapPin className="head-loc-icon" />
+                      </div>
+                      <div className="head-flex-col">
+                        <p className="upper_text">Rabindranath's address</p>
+                        <p className="lower_text">Haldia, WB, 721657</p>
+                      </div>
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* <div className="head-flex-col">
                 <div className="navbar_item">
                   <Nav />
+                </div>
+              </div> */}
+              <div className="head-flex-col">
+                <div className="navbar_item">
+                  <div className="header_search_bar">
+                    <input
+                      type="text"
+                      placeholder="Search Products ..."
+                      className="head_searchbar"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="head-flex-col">
+                <div className="navbar_item account_item">
+                  <NavLink to="/" className="navbar_loc_link">
+                    <p className="upper_text">Hello, Rabindranath</p>
+                    <p className="lower_text">My account</p>
+                  </NavLink>
+                </div>
+              </div>
+              <div className="head-flex-col">
+                <div className="navbar_item return_item">
+                  <NavLink to="/" className="navbar_loc_link">
+                    <p className="upper_text">Returns</p>
+                    <p className="lower_text">& Orders</p>
+                  </NavLink>
+                </div>
+              </div>
+              <div className="head-flex-col">
+                <div className="navbar_item cart_item">
+                  <NavLink to="/" className="navbar_loc_link">
+                    <button className="cart-btn">
+                      <FiShoppingCart className="head_cart_icon" />
+                      <span className="cart_text">My Cart</span>
+                    </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
