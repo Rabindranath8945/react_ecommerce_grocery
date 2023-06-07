@@ -80,7 +80,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
 }
 
 /* .head-flex-col {
@@ -166,8 +166,7 @@ span {
 }
 
 .head-loc-icon {
-  font-size: 19px;
-  font-weight: 800;
+  font-size: 25px;
   padding-right: 5px;
 }
 
@@ -189,8 +188,8 @@ span {
   margin-right: 5px;
 }
 
-p.cart_text {
-  font-size: 16px;
+span.cart_text {
+  font-size: 13px;
 }
 
 .navbar_loc_link {

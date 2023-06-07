@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Nav from "./Nav";
 import { FiMapPin, FiShoppingCart } from "react-icons/fi";
 
 const NavSecondary = () => {
@@ -36,11 +35,7 @@ const NavSecondary = () => {
                   </NavLink>
                 </div>
               </div>
-              {/* <div className="head-flex-col">
-                <div className="navbar_item">
-                  <Nav />
-                </div>
-              </div> */}
+
               <div className="head-flex-col">
                 <div className="navbar_item">
                   <div className="header_search_bar">
@@ -72,8 +67,14 @@ const NavSecondary = () => {
                 <div className="navbar_item cart_item">
                   <NavLink to="/" className="navbar_loc_link">
                     <button className="cart-btn">
-                      <FiShoppingCart className="head_cart_icon" />
-                      <span className="cart_text">My Cart</span>
+                      <div className="head-flex-row">
+                        <div className="head-flex-col">
+                          <FiShoppingCart className="head_cart_icon" />
+                        </div>
+                        <div className="head-flex-col">
+                          <span className="cart_text">My Cart</span>
+                        </div>
+                      </div>
                     </button>
                   </NavLink>
                 </div>
