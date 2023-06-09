@@ -11,7 +11,7 @@ export const OfferApi = [
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Categories Item",
     to: "/about",
-    title: "Chocolates",
+    title: "Chocolate Bars",
   },
   {
     id: 3,
@@ -149,7 +149,7 @@ export const FeaturesApi = [
     heading: "A Delectable Journey Of Mystery And Desire",
     image: "./images/features/features_1.jpg",
     imageAlt: "Features Item",
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 2,
@@ -185,7 +185,7 @@ export const ProductListFirstApi = [
     discount: "5% off",
     prevPrice: "₹300",
     price: 250,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 2,
@@ -195,7 +195,7 @@ export const ProductListFirstApi = [
     name: "Almond Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 3,
@@ -205,7 +205,7 @@ export const ProductListFirstApi = [
     name: "Cashew Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 4,
@@ -215,7 +215,7 @@ export const ProductListFirstApi = [
     name: "Mix Nuts Choclate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 5,
@@ -225,7 +225,7 @@ export const ProductListFirstApi = [
     name: "Almond Triangle Chocolate",
     qty: "1 Box (100pcs)",
     price: 180,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 6,
@@ -235,7 +235,7 @@ export const ProductListFirstApi = [
     name: "Nut Square Chocolate",
     qty: "1 Box (100pcs)",
     price: 200,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
 ];
 
@@ -250,7 +250,7 @@ export const ProductListSecondApi = [
     discount: "5% off",
     prevPrice: "₹300",
     price: 250,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 2,
@@ -260,7 +260,7 @@ export const ProductListSecondApi = [
     name: "Best Sale Almond Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 3,
@@ -270,7 +270,7 @@ export const ProductListSecondApi = [
     name: "Best Sale Cashew Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 4,
@@ -280,7 +280,7 @@ export const ProductListSecondApi = [
     name: "Best Sale Mix Nuts Choclate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 5,
@@ -290,7 +290,7 @@ export const ProductListSecondApi = [
     name: "Best Sale Almond Triangle Chocolate",
     qty: "1 Box (100pcs)",
     price: 180,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 6,
@@ -300,7 +300,7 @@ export const ProductListSecondApi = [
     name: "Best Sale Nut Square Chocolate",
     qty: "1 Box (100pcs)",
     price: 200,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
 ];
 
@@ -315,7 +315,7 @@ export const ProductListThirdApi = [
     discount: "5% off",
     prevPrice: "₹300",
     price: 250,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 2,
@@ -325,7 +325,7 @@ export const ProductListThirdApi = [
     name: "Best Sale Almond Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 3,
@@ -335,7 +335,7 @@ export const ProductListThirdApi = [
     name: "Best Sale Cashew Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 4,
@@ -345,7 +345,7 @@ export const ProductListThirdApi = [
     name: "Best Sale Mix Nuts Choclate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 5,
@@ -355,7 +355,7 @@ export const ProductListThirdApi = [
     name: "Best Sale Almond Triangle Chocolate",
     qty: "1 Box (100pcs)",
     price: 180,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 6,
@@ -365,7 +365,7 @@ export const ProductListThirdApi = [
     name: "Best Sale Nut Square Chocolate",
     qty: "1 Box (100pcs)",
     price: 200,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
 ];
 
@@ -380,7 +380,7 @@ export const ProductListForthApi = [
     discount: "5% off",
     prevPrice: "₹300",
     price: 250,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 2,
@@ -390,7 +390,7 @@ export const ProductListForthApi = [
     name: "Best Sale Almond Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 3,
@@ -400,7 +400,7 @@ export const ProductListForthApi = [
     name: "Best Sale Cashew Chocolate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 4,
@@ -410,7 +410,7 @@ export const ProductListForthApi = [
     name: "Best Sale Mix Nuts Choclate Bar",
     qty: "50g",
     price: 25,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 5,
@@ -420,7 +420,7 @@ export const ProductListForthApi = [
     name: "Best Sale Almond Triangle Chocolate",
     qty: "1 Box (100pcs)",
     price: 180,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
   {
     id: 6,
@@ -430,6 +430,99 @@ export const ProductListForthApi = [
     name: "Best Sale Nut Square Chocolate",
     qty: "1 Box (100pcs)",
     price: 200,
-    to: "/products",
+    to: "/singleproduct/:id",
   },
+];
+
+export const FooterMenu = [
+  {
+    id: 1,
+    name: "About Us",
+    link: "/about",
+  },
+  {
+    id: 2,
+    name: "Contact Us",
+    link: "/contact",
+  },
+  {
+    id: 3,
+    name: "Career",
+    link: "/career",
+  },
+  {
+    id: 4,
+    name: "Blog",
+    link: "/blog",
+  },
+  {
+    id: 5,
+    name: "Bake Farm's Wholesale",
+    link: "/",
+  },
+  {
+    id: 6,
+    name: "Corporate Information",
+    link: "/",
+  },
+  {
+    id: 7,
+    name: "Payments",
+    link: "/",
+  },
+  {
+    id: 8,
+    name: "Shipping",
+    link: "/",
+  },
+  {
+    id: 9,
+    name: "Cancellation & Returns",
+    link: "/",
+  },
+  {
+    id: 10,
+    name: "FAQ",
+    link: "/",
+  },
+  {
+    id: 11,
+    name: "Privacy",
+    link: "/",
+  },
+  {
+    id: 12,
+    name: "Sitemap",
+    link: "/",
+  },
+  {
+    id: 13,
+    name: "Facebook",
+    link: "/about",
+  },
+  {
+    id: 14,
+    name: "Twitter",
+    link: "/",
+  },
+  {
+    id: 15,
+    name: "Instagram",
+    link: "/blog",
+  },
+  {
+    id: 16,
+    name: "Whatsapp",
+    link: "/",
+  },
+  {
+    id: 17,
+    name: "Youtube",
+    link: "/",
+  },
+  // {
+  //   id: 18,
+  //   name: "",
+  //   link: "",
+  // },
 ];

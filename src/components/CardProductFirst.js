@@ -23,9 +23,12 @@ const CardProduct = () => {
         return (
           <div className="flex-col">
             <div className="list_product_card" key={id}>
-              <div className="card_image">
-                <img src={image} alt={imageAlt} width="100px" />
-              </div>
+              <NavLink to="/singleproduct/:id">
+                <div className="card_image">
+                  <img src={image} alt={imageAlt} width="100px" />
+                </div>
+              </NavLink>
+
               <div className="card_sub_title">
                 <div className="flex-row">
                   <div className="flex-col">
@@ -47,7 +50,9 @@ const CardProduct = () => {
                 </div>
               </div>
               <div className="card_product_name">
-                <p>{name}</p>
+                <NavLink to="/singleproduct/:id" className="product_name">
+                  <p>{name}</p>
+                </NavLink>
               </div>
 
               <div className="card_product_weight">

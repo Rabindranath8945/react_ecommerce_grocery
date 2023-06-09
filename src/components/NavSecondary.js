@@ -8,7 +8,7 @@ const NavSecondary = () => {
       <div className="navbar_secnd">
         <div className="container">
           <div className="navbar_inner">
-            <div className="flex-row">
+            <div className="head-flex-row">
               <div className="head-flex-col">
                 <div className="navbar_item_logo">
                   <NavLink to="/">
