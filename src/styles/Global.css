@@ -471,7 +471,11 @@ p.card_prev_price {
 
 /* Footer Section Start Here */
 .footer {
-  padding: 30px 0;
+  padding-top: 30px;
+}
+
+.footer_inner {
+  padding-bottom: 20px;
 }
 
 p.footer_list_heading {
@@ -501,17 +505,23 @@ ol.footer_list_item li a {
 }
 /* Copyright */
 .copyright {
-  padding: 30px 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-top: 1px solid #ddd;
 }
 
 .copyright_inner_start {
   text-align: start;
 }
 
-.copyright_inner_center {
-  text-align: center;
-}
-
 .copyright_inner_end {
   text-align: end;
+}
+
+.copyright_span {
+  padding-right: 10px;
+}
+
+.copyright_store {
+  padding-right: 10px;
 }

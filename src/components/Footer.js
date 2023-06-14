@@ -10,109 +10,111 @@ const Footer = () => {
       <div className="footer">
         <div className="container">
           {showData ? (
-            <div className="footer_inner">
-              <div className="foot-flex-row">
-                <div className="flex-col">
-                  <div className="footer_list_heading_content">
-                    <p className="footer_list_heading">Useful Links</p>
+            <>
+              <div className="footer_inner">
+                <div className="foot-flex-row">
+                  <div className="flex-col">
+                    <div className="footer_list_heading_content">
+                      <p className="footer_list_heading">Useful Links</p>
+                    </div>
+                    <div className="foot-flex-row">
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(0, 6).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(6, 12).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(12, 17).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="foot-flex-row">
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(0, 6).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
-                      </div>
+                  <div className="flex-col">
+                    <div className="footer_list_heading_content">
+                      <p className="footer_list_heading">Categories</p>
                     </div>
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(6, 12).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
+                    <div className="foot-flex-row">
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(18, 24).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(12, 18).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(25, 31).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex-col">
-                  <div className="footer_list_heading_content">
-                    <p className="footer_list_heading">Categories</p>
-                  </div>
-                  <div className="foot-flex-row">
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(0, 6).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
-                      </div>
-                    </div>
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(6, 12).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
-                      </div>
-                    </div>
-                    <div className="flex-col">
-                      <div className="footer_list">
-                        {FooterMenu.slice(12, 18).map((curElem) => {
-                          const { id, name, link } = curElem;
-                          return (
-                            <ol className="footer_list_item" key={id}>
-                              <li>
-                                <NavLink to={link}>{name}</NavLink>
-                              </li>
-                            </ol>
-                          );
-                        })}
+                      <div className="flex-col">
+                        <div className="footer_list">
+                          {FooterMenu.slice(32, 37).map((curElem) => {
+                            const { id, name, link } = curElem;
+                            return (
+                              <ol className="footer_list_item" key={id}>
+                                <li>
+                                  <NavLink to={link}>{name}</NavLink>
+                                </li>
+                              </ol>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <CopyRight />
-            </div>
+            </>
           ) : (
             <p>Please use Data</p>
           )}

@@ -520,9 +520,104 @@ export const FooterMenu = [
     name: "Youtube",
     link: "/",
   },
-  // {
-  //   id: 18,
-  //   name: "",
-  //   link: "",
-  // },
+  {
+    id: 18,
+    name: "Candies",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 19,
+    name: "Chocolate Bars",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 20,
+    name: "Cakes",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 21,
+    name: "Brownies",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 22,
+    name: "Cupcakes",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 23,
+    name: "Desserts",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 24,
+    name: "Bun & Bread",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 25,
+    name: "Patties",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 26,
+    name: "Cookies",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 27,
+    name: "Crackers",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 28,
+    name: "Biscuits",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 29,
+    name: "Rolls",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 30,
+    name: "Pies",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 31,
+    name: "Pastries",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 32,
+    name: "Doughnuts",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 33,
+    name: "Muffins",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 34,
+    name: "Berger",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 35,
+    name: "Pizza",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 36,
+    name: "Sweets",
+    link: "/singleproduct/:id",
+  },
+  {
+    id: 37,
+    name: "Tarts",
+    link: "/singleproduct/:id",
+  },
 ];
