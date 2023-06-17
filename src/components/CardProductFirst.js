@@ -2,12 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { BiCategoryAlt } from "react-icons/bi";
 import { TbDiscount2 } from "react-icons/tb";
-import { ProductListFirstApi } from "../api/BakeApi";
+import { ProductListApi } from "../api/BakeApi";
 
-const CardProduct = () => {
+const CardProductFirst = () => {
   return (
     <>
-      {ProductListFirstApi.map((curElem) => {
+      {ProductListApi.slice(0, 6).map((curElem) => {
         const {
           id,
           image,
@@ -21,8 +21,8 @@ const CardProduct = () => {
           to,
         } = curElem;
         return (
-          <div className="flex-col">
-            <div className="list_product_card" key={id}>
+          <div className="flex-col" key={id}>
+            <div className="list_product_card">
               <NavLink to="/singleproduct/:id">
                 <div className="card_image">
                   <img src={image} alt={imageAlt} width="100px" />
@@ -83,4 +83,4 @@ const CardProduct = () => {
   );
 };
 
-export default CardProduct;
+export default CardProductFirst;

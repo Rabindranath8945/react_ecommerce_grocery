@@ -6,7 +6,6 @@ import ListProductFirst from "../components/ListProductFirst";
 import ListProductSecond from "../components/ListProductSecond";
 import ListProductThird from "../components/ListProductThird";
 import ListProductForth from "../components/ListProductForth";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -31,7 +30,6 @@ const Home = () => {
           sectionHeading="Patties, Burger & Pizzas"
           pageLink="/products"
         />
-        <Footer />
       </section>
     </>
   );

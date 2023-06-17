@@ -174,7 +174,7 @@ export const FeaturesApi = [
   },
 ];
 
-export const ProductListFirstApi = [
+export const ProductListApi = [
   {
     id: 1,
     image: "./images/categories/candies_chocolates.jpg",
@@ -237,11 +237,8 @@ export const ProductListFirstApi = [
     price: 200,
     to: "/singleproduct/:id",
   },
-];
-
-export const ProductListSecondApi = [
   {
-    id: 1,
+    id: 7,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -253,7 +250,7 @@ export const ProductListSecondApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 2,
+    id: 8,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -263,7 +260,7 @@ export const ProductListSecondApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 3,
+    id: 9,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -273,7 +270,7 @@ export const ProductListSecondApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 4,
+    id: 10,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -283,7 +280,7 @@ export const ProductListSecondApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 5,
+    id: 11,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -293,7 +290,7 @@ export const ProductListSecondApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 6,
+    id: 12,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -302,11 +299,8 @@ export const ProductListSecondApi = [
     price: 200,
     to: "/singleproduct/:id",
   },
-];
-
-export const ProductListThirdApi = [
   {
-    id: 1,
+    id: 13,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -318,7 +312,7 @@ export const ProductListThirdApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 2,
+    id: 14,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -328,7 +322,7 @@ export const ProductListThirdApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 3,
+    id: 15,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -338,7 +332,7 @@ export const ProductListThirdApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 4,
+    id: 16,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -348,7 +342,7 @@ export const ProductListThirdApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 5,
+    id: 17,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -358,7 +352,7 @@ export const ProductListThirdApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 6,
+    id: 18,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -367,11 +361,8 @@ export const ProductListThirdApi = [
     price: 200,
     to: "/singleproduct/:id",
   },
-];
-
-export const ProductListForthApi = [
   {
-    id: 1,
+    id: 19,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -383,7 +374,7 @@ export const ProductListForthApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 2,
+    id: 20,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -393,7 +384,7 @@ export const ProductListForthApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 3,
+    id: 21,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -403,7 +394,7 @@ export const ProductListForthApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 4,
+    id: 22,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -413,7 +404,7 @@ export const ProductListForthApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 5,
+    id: 23,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
@@ -423,7 +414,7 @@ export const ProductListForthApi = [
     to: "/singleproduct/:id",
   },
   {
-    id: 6,
+    id: 24,
     image: "./images/categories/candies_chocolates.jpg",
     imageAlt: "Product Items",
     stock: "Available",
